@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello,Earthlings!👋🏿🌍 Let's make Earth a better place.
+
+
+
+    </h1>
+    
+    <form id="classified-form" method="post" action="/">
+        <div class="input-container">
+        
+        <input placeholder="pH" type="text" id="_ph" name="_ph" min="0" 
+        max="1000000" step="0.01"><br>
+        
+        <!-- <label for="_hardness">Hardness:</label><br> -->
+        <input placeholder="Hardness" type="text" id="_hardness" name="_hardness" min="0" 
+        max="1000000" step="0.01"><br>
+        
+        <!-- <label for="_Solids">Solids:</label><br> -->
+        <input placeholder="Solids" type="text" id="_Solids" name="_Solids" min="0" 
+        max="100000" step="0.01"><br>
+        
+        <!-- <label for="_Chloramines">Chloramines:</label><br> -->
+        <input placeholder="Chloramines" type="text" id="_Chloramines" name="_Chloramines" min="0" 
+        max="100000" step="0.01"><br>
+        
+        <!-- <label for="_Sulfate">Sulfate:</label><br> -->
+        <input placeholder="Sulfate" type="text" id="_Sulfate" name="_Sulfate" min="0" 
+        max="100000" step="0.01"><br>
+        
+        <!-- <label for="_Conductivity">Conductivity:</label><br> -->
+        <input placeholder="Conductivity" type="text" id="_Conductivity" name="_Conductivity" min="0" 
+        max="100000" step="0.01"><br>
+        
+        <!-- <label for="_Organic_carbon">Organic Carbon:</label><br> -->
+        <input placeholder="Organic Carbon" type="text" id="_Organic_carbon" name="_Organic_carbon" min="0" 
+        max="100000" step="0.01"><br>
+        
+        <!-- <label for="_Trihalomethanes">Trihalomethanes:</label><br> -->
+        <input placeholder="Trihalomethanes" type="text" id="_Trihalomethanes" name="_Trihalomethanes" min="0" 
+        max="100000" step="0.01"><br>
+        
+        <!-- <label for="_Turbidity">Turbidity:</label><br> -->
+        <input placeholder="Turbidity" type="text" id="_Turbidity" name="_Turbidity" min="0" 
+        max="100000" step="0.01"><br>
+        
+        <!-- <label for="_Potability">Potability:</label><br>
+        <input placeholder="Potability" type="text" id="_Potability" name="_Potability" min="0" 
+        max="100000" step="0.01"><br> -->
+    </div>
+   
+        <button type="submit" class="button-56">Submit</button>
+    </form>
+
+
+    <p><span>pH:</span> pH denotes the acidity or alkalinity of water, crucial for taste, corrosion control, and disinfection efficacy. It's measured using precise pH meters or pH test strips. <span>The WHO recommends a pH range of 6.5 to 8.5 for drinking water</span>, ensuring it remains palatable and minimizes corrosion.
+
+        <span>Hardness:</span> Water hardness, primarily from calcium and magnesium ions, influences scale formation and soap efficiency. Detection involves test kits or titration methods. <span>Acceptable levels typically range between 120–180 mg/L of calcium carbonate for drinking water</span>.
+        
+        <span>Total Solids:</span> Total solids encompass dissolved and suspended matter, impacting water clarity and taste. Evaporation followed by residue weighing determines total solids. <span>Drinking water standards often stipulate total dissolved solids (TDS) below 500 mg/L</span>.
+        
+        <span>Chloramines:</span> Chloramines, disinfectants formed by chlorine and ammonia, ensure microbial safety. Detection employs specialized kits with colorimetric reactions. <span>Drinking water guidelines recommend chloramine levels below 4.0 mg/L to prevent taste issues and potential health concerns</span> .
+        
+        <span>Sulfate:</span> Sulfate levels, indicative of geological or anthropogenic influences, are determined via ion chromatography or turbidimetric analysis. <span>Drinking water standards prescribe sulfate concentrations below 250 mg/L to prevent adverse taste and potential laxative effects</span>.
+        
+        <span>Conductivity:</span> Electrical conductivity reflects ion concentration, a key indicator of water purity. <span>Measured using precision meters, acceptable conductivity for drinking water typically falls between 50 and 1500 μS/cm</span> , ensuring minimal dissolved solids and optimal taste.
+        
+       <span> Organic Carbon:</span> Organic carbon, derived from natural and anthropogenic sources, influences taste and promotes disinfection byproduct formation. TOC analysis or UV absorbance methods detect its presence.  <span> Drinking water standards often mandate organic carbon levels below 2 mg/L for optimal taste and safety</span>.
+        
+        <span>Trihalomethanes (THMs):</span> THMs, disinfection byproducts formed from organic matter and chlorine, pose health risks at elevated levels. Detection involves sophisticated techniques such as gas chromatography. <span>Drinking water guidelines typically limit total THMs to below 0.080 mg/L to mitigate health concerns</span> .
+        
+        <span>Turbidity:</span> Turbidity, caused by suspended particles, impacts aesthetics and filtration efficiency. Turbidimeters or nephelometers quantify turbidity. <span>Drinking water standards mandate turbidity levels below 1 NTU to ensure clarity and effective disinfection</span> .</p>
+
+</body>
+</html>
